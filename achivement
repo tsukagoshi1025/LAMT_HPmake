@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>先端モビリティ工学研究室</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-frontpage.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div
+      class="fb-page"
+      data-href="https://www.facebook.com/facebook"
+      data-width="380"
+      data-hide-cover="false"
+      data-show-facepile="false"
+    ></div>
+
+    <!-- Header -->
+    <header class=title>
+        <img
+          id="moving-image-index"
+          src="image/car.png"
+          width="50"
+          height="20"
+        />
+        <h1 class="display-4 text-white mt-5 mb-2">
+              Laboratory of Advanced Mobility and Transportation Engineering
+        </h1>
+        <p class="lead mb-5 text-white-50">
+              北海道大学大学院工学研究院・工学院　先端モビリティ工学研究室
+        </p>       
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          >Laboratory of Advanced Mobility and Transportation Engineering</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="##.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="researches.html">Researches</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="members.html">Members</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="links.html">Links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <div class="about">
+            <h2 style="color: #6495ed">先端モビリティ工学とは</h2>
+            <hr /> 　  <!-- 水平線 -->
+            <p>ここに研究室のメッセージを記載予定！！</p>
+            <!-- <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a> -->
+    </div>
+  
+
+    <!-- Footer -->
+    <footer class = adress&copyright>
+      <div class="adress">
+        <address>
+            <strong
+                >Laboratory of Advanced Mobility and Transkportation
+                Engineering</strong
+            >
+            <br />Kita-13 Nishi-8, Kita-ku, Sapporo, Hokkaido, 060-8628, Japan
+            <br />Faculy of Engineering, Hokkaido Unversity
+            <br />
+            </address>
+            <address>
+              <abbr title="Phone">Phone:</abbr>
+              011-706-6214/6215/6177/6206
+              <br />
+              <!-- <abbr title="Email">E:</abbr>
+          <a href="mailto:#">name@example.com</a> -->
+         </address>
+      </div>
+      
+      <div class="copyright">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; 北海道大学大学院工学研究院 先端モビリティ工学研究室
+          All rights resaerved.
+        </p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
