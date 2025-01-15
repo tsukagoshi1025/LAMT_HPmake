@@ -1,16 +1,16 @@
-.news-list .item .up_ymd{
+.newsList .up_ymd{
   margin: 0;
   min-width: 140px;
   font-size: 16px;
   color: #999;
   padding: 0 20px 0 0;
 }
-.news-list .item .category{
+.newsList .category{
   margin: 0;
   min-width: 140px;
   padding: 0 20px 0 0;
 }
-.news-list .item .category span{
+.newsList .category span{
   background: #999;
   color: #FFF;
   text-align: center;
@@ -19,11 +19,11 @@
   font-size: 12px;
   line-height: 1;
 }
-.news-list .item .title{
+.newsList .title{
   margin: 0;
   width: 100%;
 }
-.news-list .item a:hover .title{
+.newsList a:hover .title{
   color: #00F;
 }
 
