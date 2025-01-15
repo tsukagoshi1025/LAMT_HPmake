@@ -1,6 +1,4 @@
 .head_picture {
   max-width: 100%;
   height: auto;
-  background-image: URL(test1.jpg);
-  background-size: cover;
 }
