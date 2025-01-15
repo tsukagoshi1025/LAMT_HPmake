@@ -1,5 +1,6 @@
 .head_picture {
   width: 100%;
   height: 100px;
-  margin: auto;
+  background-image: URL(test1.jpg);
+  background-size: cover;
 }
