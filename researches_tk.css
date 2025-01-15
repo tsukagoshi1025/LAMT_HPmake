@@ -1,6 +1,6 @@
 .head_picture {
-  width: 100%;
+  width: 500px;
   height: 500px;
-  margin: 0 auto;
+  margin: auto;
   background-image: url('https://github.com/tsukagoshi1025/LAMT_HPmake/master/test1.jpg');
 }
