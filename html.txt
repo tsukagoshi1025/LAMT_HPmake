@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>先端モビリティ工学研究室ーメンバー紹介ー</title>
+
+        <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-frontpage.css" rel="stylesheet" />
+  </head>
+
+  <body>
+  <div class="container">
+    <h1>研究室メンバー</h1>
+    <div class="mb-4">
+      <h2 class="text-primary">
+        教授
+      </h2>
+      <ul>
+        <li>吉井　稔雄 </li>
+      </ul>
+ 　　</div>
+ 　  <div class="mb-4">
+     　 <h2 class="text-primary">
+     　   准教授
+     　 </h2>
+    　  <ul>
+    　   <li>高橋　翔 </li>
+    　  </ul>
+ 　 </div>
+    <div>
+       <h2 class="text-primary">
+     　   特任助教
+     　 </h2>
+    　  <ul>
+    　   <li>八木　雅大 </li>
+    　  </ul>
+    </div>
+</body>
