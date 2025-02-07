@@ -4,7 +4,7 @@ header.title {
   text-align: center;
   color: white;
   background: url("../img/test1.jpg") no-repeat center center/cover;
-  height: 60vh; /* 画面の60%の高さ */
+  height: 20vh; /* 画面の60%の高さ */
   display: flex;
   flex-direction: column;
   justify-content: left;
