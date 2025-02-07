@@ -14,6 +14,55 @@
 
     <!-- Custom styles for this template -->
     <link href="css/business-frontpage.css" rel="stylesheet" />
+
+    /* ヘッダーのデザイン */
+header.title {
+  position: relative;
+  text-align: center;
+  color: white;
+  background: url("../img/test1.jpg") no-repeat center center/cover;
+  height: 60vh; /* 画面の60%の高さ */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header.title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* 黒の半透明オーバーレイ */
+}
+
+header.title h1,
+header.title p {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+}
+
+header.title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+header.title p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/*画像のデザイン */
+.head_picture {
+  max-width: 100%;
+  height: 300px;
+  background-image: URL("test1.jpg");
+  background-size: cover;
+}
+
   </head>
 
   <body>
