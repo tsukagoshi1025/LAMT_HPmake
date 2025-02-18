@@ -42,3 +42,30 @@
         padding: 1rem;
     }
 }
+
+/* タイトルデザイン */
+h2 {
+  font-size: 36px; /* 大きな文字サイズ */
+  text-align: center; /* テキストを中央揃え */
+  color: #333; /* 文字色 */
+  font-weight: bold; /* 太字 */
+  margin: 20px 0; /* 上下の余白 */
+}
+
+h2::before {
+  content: ''; /* 擬似要素を使ってボーダーを追加 */
+  display: block;
+  width: 100%; /* 画面幅いっぱいに広げる */
+  height: 1px; /* ボーダーの太さ */
+  background-color: #d3d3d3; /* 薄いグレー */
+  margin: 0 auto 10px; /* ボーダーを中央に配置し、下に余白 */
+}
+
+h2::after {
+  content: ''; /* 擬似要素を使ってボーダーを追加 */
+  display: block;
+  width: 100%; /* 画面幅いっぱいに広げる */
+  height: 1px; /* ボーダーの太さ */
+  background-color: #d3d3d3; /* 薄いグレー */
+  margin: 0 auto 10px; /* ボーダーを中央に配置し、下に余白 */
+}
