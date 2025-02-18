@@ -1,29 +1,78 @@
-up_ymd{
+/* リスト全体のデザイン */
+#newsList {
+  list-style: none;
+  padding: 0;
   margin: 0;
-  min-width: 140px;
-  font-size: 16px;
-  color: #999;
-  padding: 0 20px 0 0;
-}
-category{
-  margin: 0;
-  min-width: 140px;
-  padding: 0 20px 0 0;
-}
-category span{
-  background: #999;
-  color: #FFF;
-  text-align: center;
-  display: inline-block;
-  padding: 5px 20px;
-  font-size: 12px;
-  line-height: 1;
-}
-title{
-  margin: 0;
-  width: 100%;
-}
-.newsList a:hover .title{
-  color: #00F;
 }
 
+#newsList li {
+  padding: 15px;
+  border-bottom: 1px solid #7b7b7b;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#newsList li:last-child {
+  border-bottom: none;
+}
+
+/* 日付のデザイン */
+#newsList .up_ymd {
+  font-size: 14px;
+  color: #333;
+  margin-right: 15px;
+  font-weight: bold;
+  min-width: 120px;
+}
+
+/* カテゴリのデザイン */
+#newsList .category {
+  font-size: 14px;
+  color: rgba(0, 23, 113, 0.923);
+  background-color: #c7e5ff;
+  padding: 5px 0; /* 上下の余白を指定 */
+  width: 100px; /* カテゴリの幅を固定 */
+  text-align: center; /* 文字を中央揃え */
+  border-radius: 999px; /* 端を丸くする */
+  font-weight: bold;
+  display: inline-block; /* インライン要素のサイズを適切にする */
+  margin-right: 15px;
+}
+
+
+/* タイトルのデザイン */
+#newsList .title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 15px;
+}
+
+#newsList .title a {
+  text-decoration: underline; /* 下線を表示 */
+  color: inherit; /* 親要素の色を継承（デフォルトの黒など） */
+}
+
+#newsList .title a:hover {
+  color: #0073e6;
+}
+
+/* New!マークのデザイン */
+#newsList .newMark {
+  font-size: 12px;
+  color: white;
+  background-color: red;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/* 内容のデザイン */
+#newsList .content {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+  width: 100%;
+}
